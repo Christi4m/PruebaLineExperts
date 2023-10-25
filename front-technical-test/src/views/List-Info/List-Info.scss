@@ -1,0 +1,43 @@
+.table {
+  width: 100%;
+  min-height: 80%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.table th {
+  background-color: var(--back-content-drop);
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.table td {
+  background-color: var(--back-content-drop);
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.bold-black {
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.check {
+  margin-right: 10px;
+}
+.Mui-selected {
+  background-color: var(--blue-th) !important;
+  color: white !important;
+}
+.MuiPaginationItem-root {
+  color: white;
+  font-weight: bold;
+  background-color: #bbd2df;
+}
+
+.button-recjected {
+  width: 100%;
+  text-transform: capitalize;
+}

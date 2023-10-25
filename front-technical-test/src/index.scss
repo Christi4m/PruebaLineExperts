@@ -1,0 +1,31 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.alc {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.al-r {
+  justify-content: flex-end;
+}
+
+.al-l {
+  justify-content: flex-start;
+}
+
+.al-c {
+  justify-content: center;
+}

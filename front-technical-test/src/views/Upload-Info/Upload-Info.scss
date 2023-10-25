@@ -1,0 +1,47 @@
+.container-dropz {
+  background-color: var(--back-content-drop);
+  width: 100%;
+  min-height: 60vh;
+  -webkit-box-shadow: -1px 7px 10px -4px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: -1px 7px 10px -4px rgba(0, 0, 0, 0.47);
+  box-shadow: -1px 7px 10px -4px rgba(0, 0, 0, 0.47);
+  padding: 1rem;
+
+  h5 {
+    margin: 0;
+  }
+
+  .LabelDrop {
+    color: #00b5e2;
+  }
+  .label-ins {
+    margin-top: 40px;
+  }
+  .drop {
+    .btn-continue {
+      margin-top: 30px;
+      width: 100%;
+    }
+  }
+  .process {
+    width: 100%;
+    padding: 1rem;
+    .img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+      @media (min-width: 600px) {
+        img {
+          width: 40%;
+        }
+      }
+    }
+    .text {
+      * {
+        width: 100%;
+        margin: 10px;
+      }
+    }
+  }
+}

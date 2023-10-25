@@ -1,0 +1,14 @@
+.layout {
+  min-height: 100vh;
+}
+.layout-header {
+  height: 10vh;
+}
+.layout-content {
+  background-color: var(--back);
+  min-height: 90vh;
+  * {
+    color: var(--color-text);
+  }
+  width: 100%;
+}

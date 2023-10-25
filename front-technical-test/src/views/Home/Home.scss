@@ -1,0 +1,35 @@
+.home {
+  width: 100%;
+  height: auto;
+  min-height: 90vh;
+  border: none;
+  padding: 1rem;
+  .content-ip {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: end;
+    color: var(--color-text);
+
+    * {
+      margin: 0;
+      padding: 0;
+      line-height: normal;
+    }
+  }
+  .tabs {
+    width: 90%;
+    min-height: 70vh;
+    text-align: left;
+    .label {
+      margin: 0;
+      padding: 0;
+    }
+    .labelInfo {
+      color: var(--color-text);
+      border-radius: 10px;
+      border-left: 10px solid #00b5e2;
+      padding-left: 10px;
+    }
+  }
+}

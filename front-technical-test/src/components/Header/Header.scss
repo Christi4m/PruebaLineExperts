@@ -1,0 +1,73 @@
+// src/components/Header/Header.scss
+.header {
+  background-color: #1d252d;
+  max-width: 100vw;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  image {
+    width: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  .logo {
+    image {
+      width: 20%;
+    }
+  }
+}
+
+.item-grid {
+  height: 100%;
+}
+.label-switch {
+  font-size: smaller;
+}
+.theme-switcher {
+  width: 100%;
+  height: 100%;
+  label {
+    color: white;
+  }
+}
+
+/* Enlaces visitados */
+.container-drop {
+  width: 100%;
+  height: 100%;
+
+  .user-button {
+    background-color: #4976af;
+    border: none;
+    height: 100%;
+    margin-right: 5%;
+    border-radius: 0;
+    color: white;
+
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    // otros estilos para el contenido del dropdown
+  }
+
+  &:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-button {
+    width: 40%;
+  }
+}
